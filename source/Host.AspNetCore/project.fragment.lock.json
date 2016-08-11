@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "exports": {
+    "Core/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "../../build/IdentityServer3.dll": {}
+      },
+      "runtime": {
+        "../../build/IdentityServer3.dll": {},
+        "../packages/Autofac.3.5.2/lib/net40/Autofac.dll": {},
+        "../packages/Autofac.WebApi2.3.4.0/lib/net45/Autofac.Integration.WebApi.dll": {},
+        "../packages/IdentityModel.1.11.0/lib/net45/IdentityModel.dll": {},
+        "../packages/Microsoft.AspNet.Cors.5.2.3/lib/net45/System.Web.Cors.dll": {},
+        "../packages/Microsoft.AspNet.WebApi.Client.5.2.3/lib/net45/System.Net.Http.Formatting.dll": {},
+        "../packages/Microsoft.AspNet.WebApi.Core.5.2.3/lib/net45/System.Web.Http.dll": {},
+        "../packages/Microsoft.AspNet.WebApi.Owin.5.2.3/lib/net45/System.Web.Http.Owin.dll": {},
+        "../packages/Microsoft.AspNet.WebApi.Tracing.5.2.3/lib/net45/System.Web.Http.Tracing.dll": {},
+        "../packages/Microsoft.Owin.3.0.1/lib/net45/Microsoft.Owin.dll": {},
+        "../packages/Microsoft.Owin.Cors.3.0.1/lib/net45/Microsoft.Owin.Cors.dll": {},
+        "../packages/Microsoft.Owin.FileSystems.3.0.1/lib/net45/Microsoft.Owin.FileSystems.dll": {},
+        "../packages/Microsoft.Owin.Security.3.0.1/lib/net45/Microsoft.Owin.Security.dll": {},
+        "../packages/Microsoft.Owin.Security.Cookies.3.0.1/lib/net45/Microsoft.Owin.Security.Cookies.dll": {},
+        "../packages/Microsoft.Owin.StaticFiles.3.0.1/lib/net45/Microsoft.Owin.StaticFiles.dll": {},
+        "../packages/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.dll": {},
+        "../packages/Owin.1.0/lib/net40/Owin.dll": {},
+        "../packages/System.IdentityModel.Tokens.Jwt.4.0.2.206221351/lib/net45/System.IdentityModel.Tokens.Jwt.dll": {}
+      },
+      "contentFiles": {
+        "../../build/IdentityServer3.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Host.Configuration/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/Host.Configuration.dll": {}
+      },
+      "runtime": {
+        "../packages/IdentityModel.1.11.0/lib/net45/IdentityModel.dll": {},
+        "../packages/Microsoft.IdentityModel.Protocol.Extensions.1.0.2.206221351/lib/net45/Microsoft.IdentityModel.Protocol.Extensions.dll": {},
+        "../packages/Microsoft.Owin.3.0.1/lib/net45/Microsoft.Owin.dll": {},
+        "../packages/Microsoft.Owin.Security.3.0.1/lib/net45/Microsoft.Owin.Security.dll": {},
+        "../packages/Microsoft.Owin.Security.Facebook.3.0.1/lib/net45/Microsoft.Owin.Security.Facebook.dll": {},
+        "../packages/Microsoft.Owin.Security.Google.3.0.1/lib/net45/Microsoft.Owin.Security.Google.dll": {},
+        "../packages/Microsoft.Owin.Security.OpenIdConnect.3.0.1/lib/net45/Microsoft.Owin.Security.OpenIdConnect.dll": {},
+        "../packages/Microsoft.Owin.Security.Twitter.3.0.1/lib/net45/Microsoft.Owin.Security.Twitter.dll": {},
+        "../packages/Microsoft.Owin.Security.WsFederation.3.0.1/lib/net45/Microsoft.Owin.Security.WsFederation.dll": {},
+        "../packages/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.dll": {},
+        "../packages/Owin.1.0/lib/net40/Owin.dll": {},
+        "../packages/System.IdentityModel.Tokens.Jwt.4.0.2.206221351/lib/net45/System.IdentityModel.Tokens.Jwt.dll": {},
+        "bin/Debug/Host.Configuration.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Host.Configuration.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
